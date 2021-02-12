@@ -15,7 +15,7 @@ Dependencies
 - Anaconda Kickstart File configured and Copied to Build machine
 
 ```
-dnf -y install lorax yum-utils python3
+dnf -y install lorax python3
 wget -cN https://raw.githubusercontent.com/weldr/lorax/master/src/sbin/mkksiso
 chmod +x mkksiso
 ./mkksiso ks-usb.cfg rhel-8.3-x86_64-dvd.iso rhel-8.3-x86_64-kickstart-usb.iso
